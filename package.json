@@ -14,10 +14,12 @@
     "test": "make test"
   },
   "dependencies": {
-    "hiredis": "^0.4.1",
     "pify": "^2.2.0",
     "pinkie-promise": "^1.0.0",
     "redis": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "hiredis": "^0.4.1"
   },
   "devDependencies": {
     "ava": "*"
